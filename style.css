@@ -1,0 +1,48 @@
+ /* Colors and fonts */
+
+ body { 
+	background-color: rgb(244,253,253); 
+	font-size: 20px; 
+	line-height: 1,8;
+	font-family: "Gill Sans", sans-sérif}
+
+a{ color: rgb(0,0,230); }
+a:hover{ color: red; }
+
+h1 { color: rgb(0,76,153);}
+h1 { font-family: sans-serif;}
+h1 { font-size: 70px;}
+
+h2 { color: rgb(0,128,255);}
+h2 { font-family: sans-serif;}
+h2 { font-weight: 600}
+
+h3 { color: rgb(51,153,255);}
+h3 { font-family: sans-serif;}
+
+div {
+	background: rgb(209,245,249);
+	padding: 50px;
+	margin: 80px;
+	box-shadow: 5px 15px 25px rgba(0.1,0.1,0.1,0.3)}
+
+img { width: 300px;
+      height: 300px; 
+
+/* Custom design with class */
+
+.container { width: 740px }
+
+@media (max-width: 550px) { 
+.container { background-color: rgb(36,249,199);
+             width: 500px}
+ 
+  }
+
+ @media (max-width: 800px) { 
+.container { background-color: rgb(36,249,199);
+             width: 7200px}
+ 
+  }
+
+.img-circle { border-radius: 50% }
